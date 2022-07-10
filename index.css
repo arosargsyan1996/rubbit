@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+#desk {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px auto 0;
+  position: relative;
+}
+
+.controll-panel {
+  display: flex;
+  justify-content: center;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid green;
+  background: red;
+}
+
+.wolf,
+.rabbit,
+.house,
+.barrier {
+  display: flex;
+  position: absolute;
+  background: greenyellow;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.wolf {
+  background-image: url(./img/hafo.png);
+}
+.rabbit {
+  background-image: url(./img/Napo.png);
+}
+.house {
+  background-image: url(./img/tank.png);
+}
+.barrier {
+  background-image: url(./img/bar.png);
+}
